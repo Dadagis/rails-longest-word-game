@@ -13,3 +13,39 @@
  *= require_tree .
  *= require_self
  */
+
+.letter-cards {
+  display: flex;
+  flex-direction: row;
+  height: 60px;
+  justify-content: space-around;
+}
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  border: 1px solid;
+  color: white;
+  background-color: #1C8DD8;
+  height: 100%;
+  width: 60px;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 300px;
+}
+
+#answer-form {
+  display: flex;
+  justify-content: left;
+  height:
+}
+
+#answer-form #text-bar {
+  width: 60%;
+}
